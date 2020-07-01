@@ -8,8 +8,7 @@ export const passportLogin = async ({email, password}) => {
       password: password
     })
   } catch (err) {
-    console.log(err)
-
+    return err
   }
 }
 
